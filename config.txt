@@ -58,7 +58,7 @@ Link: sa8775p/Qualcomm/SA8775P-RIDE/dsp/gdsp0	qcs8300/Qualcomm/QCS8300-RIDE/dsp/
 Install: qcs615/Qualcomm/QCS615-RIDE	adsp	ADSP.VT.5.2.c6-00084.1-SM6150-1
 Install: qcs615/Qualcomm/QCS615-RIDE	cdsp	CDSP.VT.2.2.c4-00019-SM6150-1
 
-# Hamoa IoT EVK
+# Hamoa IoT EVKT
 Install: x1e80100/Qualcomm/Hamoa-IoT-EVK	adsp	ADSP.HT.5.9-00839-HAMOA-1
 Install: x1e80100/Qualcomm/Hamoa-IoT-EVK	cdsp	CDSP.HT.2.9.c1-00094-HAMOA-1
 
@@ -80,6 +80,10 @@ Install: glymur/Qualcomm/Glymur-CRD	cdsp	CDSP.HT.3.3-00315-GLYMUR-1
 # Mahua CRD
 Link: glymur/Qualcomm/Glymur-CRD/dsp/adsp	mahua/Qualcomm/Mahua-CRD/dsp/adsp
 Link: glymur/Qualcomm/Glymur-CRD/dsp/cdsp	mahua/Qualcomm/Mahua-CRD/dsp/cdsp
+
+# HAWI MTP
+Install: hawi/Qualcomm/Hawi-MTP	adsp	LPAIDSP.HT.1.6-00701.4-HAWI-3
+Install: hawi/Qualcomm/Hawi-MTP	cdsp	CDSP.HT.3.6-00501.6-HAWI-1
 
 # Shikra CQS EVK
 Install: shikra/Qualcomm/Shikra-CQS-EVK	cdsp	CDSP.VT.2.4.3-00088-SHIKRA-1
