@@ -77,6 +77,11 @@ Install: kaanapali/Qualcomm/Kaanapali-MTP	cdsp	CDSP.HT.3.2.c1-00001-KAANAPALI-3
 Install: glymur/Qualcomm/Glymur-CRD	adsp	LPAIDSP.HT.1.6.2-00020-GLYMUR-2
 Install: glymur/Qualcomm/Glymur-CRD	cdsp	CDSP.HT.3.3-00315-GLYMUR-1
 
+# Nord Ride SX
+Install: nord/Qualcomm/Nord-Ride-SX	adsp	adsp-HPASS.AT.1.0.1-00003-NORD-4
+Install: nord/Qualcomm/Nord-Ride-SX	adsp1	adsp1-HPASS.AT.1.0.1-00003-NORD-4
+Install: nord/Qualcomm/Nord-Ride-SX	cdsp	cdsp-NSP.AT.1.0.1-00003-NORD-2
+
 # Mahua CRD
 Link: glymur/Qualcomm/Glymur-CRD/dsp/adsp	mahua/Qualcomm/Mahua-CRD/dsp/adsp
 Link: glymur/Qualcomm/Glymur-CRD/dsp/cdsp	mahua/Qualcomm/Mahua-CRD/dsp/cdsp
